@@ -8,16 +8,18 @@ envs = ENVIRONMENTS()
 parents = POPULATION(c.popSize)
 parents.Initialize()
 parents.Evaluate(envs, pp=False, pb=True)
-print 0,
-parents.Print()
+#print 0,
+#parents.Print()
 
 for g in range(1,c.numGens):
 	children = POPULATION(c.popSize)
 	children.Fill_From(parents)
 	children.Evaluate(envs, pp=False,pb=True)
-	print g,
-	children.Print()
-	#print children.p[0].Print()
+
+	if ( g==c.numGens-1):
+		print g,
+		children.Print()
+
 	parents = children
 
 f = open('../data/evo.txt','a')
