@@ -16,3 +16,8 @@ directory and type
 ./run.bat
 
 The results are stored in evodevo/data.
+
+To view the results and obtain a p-value, navigate into
+evodevo/analysis and run
+
+python analysis.py
