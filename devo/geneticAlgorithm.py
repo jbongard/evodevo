@@ -20,9 +20,14 @@ for g in range(1,c.numGens):
 	#print children.p[0].Print()
 	parents = children
 
-for e in range(0,c.numEnvironments):
+f = open('../data/devo.txt','a')
+f.write(str(parents.p[0].fitness))
+f.write(' ')
+f.close()
 
-	parents.p[0].Start_Evaluation(envs.envs[e],pp=False,pb=False)
-	parents.p[0].Compute_Fitness()	
+#for e in range(0,c.numEnvironments):
+#
+#	parents.p[0].Start_Evaluation(envs.envs[e],pp=False,pb=False)
+#	parents.p[0].Compute_Fitness()	
 
 

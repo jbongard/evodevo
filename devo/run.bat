@@ -1,0 +1,32 @@
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
+python geneticAlgorithm.py
