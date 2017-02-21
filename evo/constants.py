@@ -10,5 +10,5 @@ numEnvironments = 4
 
 popSize = 10
 
-numGens = 10 # 100
+numGens = 100
 
