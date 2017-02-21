@@ -8,10 +8,11 @@ creator of this repo for details.
 To run the control treatment, navigate into the evo directory
 and type
 
-python geneticAlgorithm.py.
+./run.bat
 
 To run the experimental treatment, navigate into the devo
 directory and type
 
-python geneticAlgorithm.py.
+./run.bat
 
+The results are stored in evodevo/data.
