@@ -23,9 +23,7 @@ sems[1] = scipy.stats.sem(d)
 print scipy.stats.mannwhitneyu(e,d)
 
 f = plt.figure()
-#ax = f.add_subplot(111)
-
+ax = plt.subplot(111)
 plt.bar([0,1], means, yerr=1.96*sems, color=[0.9,0.9,0.9])
-
-#ax.set_ylim(-2,+2)
+ax.set_ylim(0.10,0.13)
 plt.show()
